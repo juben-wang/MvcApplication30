@@ -1,0 +1,6 @@
+﻿@model DateTime?
+
+@Html.TextBoxFor(m => m, new { @class="datepicker"})
+<script>
+    $('.datepicker').datetimepicker();
+</script>

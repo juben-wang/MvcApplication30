@@ -1,0 +1,9 @@
+﻿@model DateTime
+@using System.Globalization;
+@{
+    TaiwanCalendar tc = new TaiwanCalendar();
+    
+}
+<span style="color:red">
+    @tc.GetYear(Model)/@tc.GetMonth(Model)/@tc.GetDayOfMonth(Model)
+</span>
